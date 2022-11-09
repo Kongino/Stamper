@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto;
+  padding: 2rem; */
+  text-align: center;
+}
+
+.nav_body {
+  padding-top: 11vh;
+}
+
+.logo:hover {
+  /* filter: drop-shadow(0 0 2em #bf60ff); */
+  animation: cute 1s ;
+}
+
+.App {
+  height:100vh;
+}
+
+@keyframes cute {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+@font-face {
+  font-family: KCCMurukmuruk;
+  src: url("./assets/fonts/KCC-Murukmuruk.ttf");
+}
+
+@font-face {
+  font-family: BMJua;
+  src: url("./assets/fonts/BM-Jua.ttf");
+}
+
+.background {
+  background-color: #1a1a1a;
+}
